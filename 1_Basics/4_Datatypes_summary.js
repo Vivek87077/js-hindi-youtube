@@ -38,3 +38,35 @@
 
 // Link to know further more about typeof:---
 //  https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// +++++++++++++ Memory +++++++++++++
+
+// Stack (Primitive) :--> In stack memory we get copy of declared variable
+// Heap (Non-Primitive) :-> In heap memory we get reference of original value
+
+
+
+
+// ******** Example of stack memory *********
+// let myYoutubename = "VivekSharmaPCM"
+// let anothername = myYoutubename
+// anothername = "VivekVersatile"
+
+// console.log(myYoutubename);
+// console.log(anothername);
+
+
+
+// ******** Example of heap memory ********
+// let userOne = {
+//     email: "User@google.com",
+//     upi: "User@ybl"
+// }
+// let userTwo = userOne
+
+// userTwo.email = "Vivek@google.com"
+
+// console.log(userOne.email);
+// console.log(userTwo.email);
