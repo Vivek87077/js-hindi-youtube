@@ -1,7 +1,8 @@
 //++++++++++++++++++ Objects(Part-1) +++++++++++++++++++++++++
 
-// singleton : whenever we declare object by literal way there is not by singleton way but singleton makes if de
-// Object.create
+// singleton : whenever we declare object by literal way there is not by singleton way but singleton makes if declare by constructor
+
+// Object.create :-- this is called through constructor 
 
 // object literals
 
@@ -41,8 +42,8 @@ console.log(JsUser.greetingTwo());
 
 // ++++++++++++++++++ Objects(Part-2) +++++++++++++++++++++++++
 
-// const tinderUser = new Object()
-const tinderUser = {}
+// const tinderUser = new Object()     --> SIngleton object
+const tinderUser = {}               // --> Non singleton object
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
