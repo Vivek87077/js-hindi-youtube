@@ -1,6 +1,6 @@
 //++++++++++++++++++ Objects(Part-1) +++++++++++++++++++++++++
 
-// singleton
+// singleton : whenever we declare object by literal way there is not by singleton way but singleton makes if de
 // Object.create
 
 // object literals
