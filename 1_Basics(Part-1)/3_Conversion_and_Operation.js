@@ -4,7 +4,6 @@
 //  let score = undefined
 let score = "Vivek"
 
-
 console.log(typeof score);
 console.log(typeof(score));
 

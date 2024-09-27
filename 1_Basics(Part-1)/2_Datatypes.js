@@ -5,7 +5,7 @@
 console.log("Vivek Sharma");
 
 let name = "Vivek"
-let age = 18
+let age = 18 
 let isLoggedIn = false
 /*
 Primitive data type:--
